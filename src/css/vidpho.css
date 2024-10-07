@@ -1,0 +1,7 @@
+.container-all{
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

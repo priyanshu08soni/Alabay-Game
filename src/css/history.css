@@ -1,0 +1,54 @@
+/* home-wrapper-2 */
+.home-wrapper-2{
+    height: 80vh;
+}
+
+.slider{
+    background-color: rgba(255, 255, 255, 0.647);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-top: 10px;
+    margin-left: 40vw;
+    border-radius: 10px;
+    margin-right: 40vw;
+}
+.slider-home{
+    background-color: #FFC700;
+    padding-bottom: 2px;
+    padding-top: 15px;
+}
+.his-desc{
+    display: flex;
+    justify-content: end;
+}
+.his-desc h1{
+    font-family: myFont;
+    display: flex;
+    font-size: 11vw;
+    color: white;
+    justify-content: end;
+}
+.his-desc h2{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    font-size: 4vw;
+    color: rgb(230, 104, 0);
+    font-weight: 900;
+    justify-content: end;
+}
+.his-desc p{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    font-size: 2vw;
+    font-weight: 800;
+}
+.history-image{
+    font-family: "Kumbh Sans", sans-serif;
+    width: 38vw;
+}
+.history-page{
+    background: radial-gradient(42.38% 44.19% at 50.14% 67.33%, #FFF280 0%, #FFC700 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    padding-bottom: 50px;
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 85%);
+}

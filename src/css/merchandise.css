@@ -1,0 +1,14 @@
+.merch{
+    width: 50%;
+    margin: auto;
+}
+.background-image{
+    border-radius: 20px;
+    position: absolute;
+    
+}
+.front-image{
+    border-radius: 20px;
+    position: relative;
+
+}

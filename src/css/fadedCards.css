@@ -1,0 +1,67 @@
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 450px;
+  }
+  
+  .card {
+    position: relative;
+    overflow: hidden;
+    padding-top: 40%;
+    border: 0;
+    z-index: 1;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card-heading {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .card-heading h1{
+    font-size: 30px;
+  }
+  .card-heading h2{
+    font-size: 22px;
+  }
+  .card-1{
+    background: linear-gradient(180deg, #DBC70C 0%, rgba(255, 242, 128, 0) 100%);
+    border-top-left-radius: 40px;
+}
+.card-2{
+    background: linear-gradient(180deg, #00D4D4 0%, rgba(65, 255, 255, 0) 100%);
+}
+.card-3{
+    background: linear-gradient(180deg, #D427FF 0%, rgba(212, 39, 255, 0) 100%);
+}
+.card-4{
+    background: linear-gradient(179.53deg, #8F3A3C 0.41%, rgba(143, 58, 60, 0) 95.85%);
+    border-top-right-radius: 40px;
+}
+.overlay{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #FFFFFF 20.46%, rgba(255, 255, 255, 0) 60.05%);
+
+}
+ 

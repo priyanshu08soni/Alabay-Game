@@ -1,0 +1,45 @@
+.tokenomics{
+    background: radial-gradient(30.64% 32.66% at 47.77% 66.92%, #FFF280 0%, #FFC700 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0 85%);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.tokenomics-all{
+    display: flex;
+}
+.tokens{
+    margin: auto;
+}
+.token{
+    width: 60%;
+    background: #353535;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+    box-shadow: 16.62px 20.12px 35.77px 0px #A87D29;
+    height: 120px;
+}
+.token h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 20px;
+}
+.token h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #FFF280;
+    font-size: 30px;
+}
+.token-head{
+    font-family: myFont;
+    color: white;
+    font-size: 18vh;
+    display: flex;
+    
+    margin-top: 50px;
+}

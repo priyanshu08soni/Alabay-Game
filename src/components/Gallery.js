@@ -5,7 +5,6 @@ import "swiper/css/navigation"; // Import styles for navigation
 import "swiper/css/pagination"; // Import styles for pagination
 import { Navigation, Pagination } from "swiper/modules"; // Import the modules correctly
 
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 // Mock data for photos and videos
 const photos = [

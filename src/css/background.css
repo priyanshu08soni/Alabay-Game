@@ -4,6 +4,16 @@ html, body {
     height: 100%;
     background-color: transparent;
   }
+  html::-webkit-scrollbar{
+    width: 10px;
+  }
+  html::-webkit-scrollbar-track{
+    background: transparent;
+  }
+  html::-webkit-scrollbar-thumb{
+    background-color: #15ff00b6;
+    border-radius: 20px;
+  }
   .home-image{
     position: fixed;
     width: 100%;

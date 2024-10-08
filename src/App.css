@@ -3,6 +3,13 @@
 @import url('./css/vidpho.css');
 @import url('./css/gallery.css');
 @import url('./css/vision.css');
+@import url('./css/path.css');
+@import url('./css/fadedCards.css');
+@import url('./css/tokenomics.css');
+@import url('./css/merchandise.css');
+@import url('./css/games.css');
+@import url('./css/gameprev.css');
+@import url('./css/socialmedia.css');
 @font-face{
     font-family: myFont;
     src: url(./assets/font/CHEESEBU.TTF);

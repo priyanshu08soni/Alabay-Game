@@ -5,14 +5,18 @@
 @layer components{
     .custom-scrollbar::-webkit-scrollbar{
         width: 4px;
+        
     }
     .custom-scrollbar::-webkit-scrollbar-track{
         background:transparent;
     }
     .custom-scrollbar::-webkit-scrollbar-thumb{
-        background-color: #a5b4fc;
+        background-color: #fcd6a5;
         width: 5px;
-        border-radius: 10px;
+        border-top-right-radius: 20px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track-piece{
+        margin-top: 17px;
     }
     .custom-scrollbar-dark::-webkit-scrollbar-thumb{
         background-color: #312e81;

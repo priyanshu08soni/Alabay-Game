@@ -1,12 +1,17 @@
 import React from "react";
 import img from "../assets/background.png";
 import historyImage from "../assets/history.png";
-import dogs from "../assets/dogsInGroup.png"
-import path from "../assets/path.png"
-import Gallery from "../components/Gallery"
+import Gallery from "../components/Gallery";
+import OverVision from "../components/OverVision";
+import FadedCards from "../components/FadedCards";
+import Tokenomics from "../components/Tokenomics";
+import Merchandise from "../components/Merchandise";
+import Games from "../components/Games";
+import GamePrev from "../components/GamePrev";
+import SocialMedia from "../components/SocialMedia";
 const Home = () => {
   return (
-    <>
+    <div className="custom-scrollbar">
       <section
         className="home-image-wrapper"
         style={{ position: "relative", height: "100vh", overflow: "hidden" }}
@@ -28,8 +33,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-wrapper-2">
-        <div className="content">
+      <section className="home-wrapper-2 ">
+        <div className="content custom-scrollbar">
           <div className="slider-home">
             <div className="slider" />
           </div>
@@ -50,31 +55,17 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="media">
-            <Gallery/>
-          </div>
-          <div className="project-vision-image">
-            <h1 className="vis-heading">PROJECT VISION</h1>
-            <img src={dogs} alt="" />
-          </div>
-          <div className="project-vision px-32">
-            <div>
-              <p>Our mission is to honor the heritage of the Alabay by creating a vibrant, loyal, and powerful community. Just as the Alabay protects its flock, we aim to build a pack that stands strong together.</p>
-              <h1 className="road-head">ROAD MAP</h1>
-            </div>
-          </div>
-          <div className="path-vision flex absolute">
-            <div className="">
-              <p>Our journey is just beginning. Explore our roadmap to see the exciting milestones and future plans we have in store. Join us as we grow and achieve new heights.</p>
-              <p>Join us as we grow and achieve new heights.</p>
-            </div>
-            <div className="">
-              <img src={path} alt="" />
-            </div>
-          </div>
+          <Gallery />
+          <OverVision />
+          <FadedCards/>
+          <Tokenomics/>
+          <Merchandise/>
+          <Games/>
+          <GamePrev/>
+          <SocialMedia/>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

@@ -67,6 +67,21 @@ const Gallery = () => {
       <Swiper 
         modules={[Navigation, Pagination]} // Pass modules like this
         slidesPerView={3}
+        breakpoints={{
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,  // 1 slide per view on small screens
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 2,  // 2 slides per view on medium screens
+          },
+          // when window width is >= 768px
+          1100: {
+            slidesPerView: 3,  // 3 slides per view on larger tablets
+          },
+          // when window width is >= 1024px
+        }}
         navigation // No need to specify elements manually
       >
         {items.map((item, index) => (

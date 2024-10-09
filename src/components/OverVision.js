@@ -1,14 +1,17 @@
 import React from "react";
 import dogs from "../assets/dogsInGroup.png"
 import path from "../assets/path.png"
+import dogsMask from "../assets/Mask/dogs.png"
+import pathMask from '../assets/Mask/roadmask.png'
 const OverVision = () => {
   return (
     <>
       <div className="project-vision-image">
         <h1 className="vis-heading">PROJECT VISION</h1>
         <img src={dogs} alt="vision-image" />
+        <img className="vision-mask" src={dogsMask} alt="vision-mask" />
       </div>
-      <div className="project-vision px-32">
+      <div className="project-vision">
         <div>
           <p>
             Our mission is to honor the heritage of the Alabay by creating a
@@ -28,7 +31,8 @@ const OverVision = () => {
           <p className="join">Join us as we grow and achieve new heights.</p>
         </div>
         <div className="pe-5 w-50">
-          <img src={path} alt="path-image" />
+          <img className="path-vision-image" src={path} alt="path-image" />
+          <img className="path-vision-mask" src={pathMask} alt="path-image-mask" />
         </div>
       </div>
     </>

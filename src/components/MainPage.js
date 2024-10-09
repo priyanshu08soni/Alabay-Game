@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import historyImage from "../assets/history.png";
 import Gallery from "./Gallery";
 import OverVision from "./OverVision";
@@ -8,16 +8,19 @@ import Merchandise from "./Merchandise";
 import Games from "./Games";
 import GamePrev from "./GamePrev";
 import SocialMedia from "./SocialMedia";
+import historyMask from "../assets/Mask/historymask.png"
 const MainPage = () => {
   return (
     <section className="home-wrapper-2 ">
-        <div className="content custom-scrollbar">
+      <div className="content custom-scrollbar">
+        <div className="history-page pt-4">
           <div className="slider-home">
             <div className="slider" />
           </div>
-          <div className="history-page flex pe-5 pt-16">
+          <div className="flex">
             <div className="w-50">
               <img className="history-image" src={historyImage} alt="" />
+              <img className="history-mask" src={historyMask} alt="" />
             </div>
             <div className="his-desc w-50">
               <div>
@@ -32,17 +35,18 @@ const MainPage = () => {
               </div>
             </div>
           </div>
-          <Gallery />
-          <OverVision />
-          <FadedCards/>
-          <Tokenomics/>
-          <Merchandise/>
-          <Games/>
-          <GamePrev/>
-          <SocialMedia/>
         </div>
-      </section>
-  )
-}
+        <Gallery />
+        <OverVision />
+        <FadedCards />
+        <Tokenomics />
+        <Merchandise />
+        <Games />
+        <GamePrev />
+        <SocialMedia />
+      </div>
+    </section>
+  );
+};
 
-export default MainPage
+export default MainPage;

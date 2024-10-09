@@ -1,38 +1,53 @@
 .project-vision{
     background: radial-gradient(42.38% 44.19% at 50.14% 67.33%, #FFF280 0%, #FFC700 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0 85%);
-    padding-top: 400px;
+    padding-top: 20vw;
     padding-bottom: 250px;
-    margin-top: 500px;
+    margin-top: 33vw;
     z-index: -1;
+    padding-left: 8vw;
+    padding-right: 8vw;
     position: relative;
+    @media screen and (max-width:1000px) {
+        clip-path: polygon(0% 7%, 100% 0, 100% 100%, 0 93%);
+    }
 }
 .project-vision-image{
     position: absolute;
     padding-left: 5vw;
     padding-right: 5vw;
 }
+
 .project-vision p{
     font-family: "Kumbh Sans", sans-serif;
-    font-size: 25px;
+    font-size: 2vw;
     margin-top: 100px;
     padding-bottom: 50px;
     font-weight: 700;
     text-align: center;
+    @media screen and (max-width:1000px) {
+        font-size: 4vw;
+    }
 }
 
 .vis-heading{
     font-family: myFont;
     color: #FFA800;
-    font-size: 18vh;
+    font-size: 7vw;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    @media screen and (max-width:700px) {
+       font-size: 10vw;
+    }
 }
 .road-head{
     font-family: myFont;
     color: white;
-    font-size: 18vh;
+    font-size: 7vw;
     display: flex;
     margin-top: 50px;
+    @media screen and (max-width:700px) {
+        font-size: 10vw;
+     }
 }

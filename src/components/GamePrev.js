@@ -11,14 +11,29 @@ import { Navigation, Pagination } from "swiper/modules"; // Import the modules c
 
 const GamePrev = () => {
   return (
-    <div className='gameprev-container px-16 my-16'>
-        <div className="gameprev-heading flex gap-3 px-14">
+    <div className='gameprev-container'>
+        <div className="gameprev-heading flex gap-3">
             <h1>GAME</h1>
             <h2>PREVIEWS</h2>
         </div>
       <Swiper 
         modules={[Navigation, Pagination]} // Pass modules like this
         slidesPerView={3}
+        breakpoints={{
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,  // 1 slide per view on small screens
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 2,  // 2 slides per view on medium screens
+          },
+          // when window width is >= 768px
+          1100: {
+            slidesPerView: 3,  // 3 slides per view on larger tablets
+          },
+          // when window width is >= 1024px
+        }}
         navigation // No need to specify elements manually
       >
         <SwiperSlide>

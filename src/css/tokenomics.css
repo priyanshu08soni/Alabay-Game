@@ -1,14 +1,24 @@
 .tokenomics{
     background: radial-gradient(30.64% 32.66% at 47.77% 66.92%, #FFF280 0%, #FFC700 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0 85%);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 13vw;
+    padding-bottom: 13vw;
+    @media screen and (max-width:1000px) {
+        clip-path: polygon(0% 7%, 100% 0, 100% 100%, 0 93%);
+    }
 }
 .tokenomics-all{
     display: flex;
+    @media screen and (max-width:1000px) {
+        flex-direction: column;
+    }
 }
 .tokens{
     margin: auto;
+    width: 50%;
+    @media screen and (max-width:1000px) {
+        width: 80%;
+    }
 }
 .token{
     width: 60%;
@@ -21,7 +31,11 @@
     padding-left: 20px;
     justify-content: center;
     box-shadow: 16.62px 20.12px 35.77px 0px #A87D29;
-    height: 120px;
+    height: 8vw;
+    @media screen and (max-width:1000px) {
+        width: 100%;
+        height: 20vw;
+    }
 }
 .token h2{
     font-family: "Montserrat", sans-serif;
@@ -38,8 +52,22 @@
 .token-head{
     font-family: myFont;
     color: white;
-    font-size: 18vh;
+    font-size: 7vw;
     display: flex;
-    
-    margin-top: 50px;
+    padding-left: 8vw;
+    margin-top: 5vw;
+    @media screen and (max-width:1000px) {
+        margin-top: 0;
+        font-size: 10vw;
+    }
+}
+.moneyImage{
+    width: 50%;
+    @media screen and (max-width:1000px) {
+        width: 100%;
+        padding-top: 10vw;
+    }
+}
+.moneymask{
+    margin-bottom: -33vw;
 }

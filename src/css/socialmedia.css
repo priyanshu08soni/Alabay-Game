@@ -1,55 +1,82 @@
 .socialmedia-heading{
     font-family: myFont;
     color: #FFA800;
-    font-size: 18vh;
+    font-size: 7vw;
     display: flex;
     width: 66%;
     margin-top: 50px;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    @media screen and (max-width:1000px) {
+        padding-bottom: 5vw;
+        font-size: 10vw;
+    }
+
 }
 .socialmidea-image-1{
     position: absolute;
     width: 40%;
+    @media screen and (max-width:1000px) {
+        width: 80%;
+    }
 }
 .message{
     width: 50%;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-bottom: 100px;
+    padding-top: 8.5vw;
+    padding-left: 8.5vw;
+    padding-bottom: 8.5vw;
     display: flex;
     align-items: center;
+    @media screen and (max-width:1000px) {
+        width: 100%;
+    }
 }
 .socialmidea-image-2{
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding-right: 8.5vw;
+    padding-bottom: 8.5vw;
+    width: 50%;
+    @media screen and (max-width:1000px) {
+        width: 100%;
+        padding-right: 0vw;
+    }
 }
 .overlay-links{
     position: relative;
-    padding-left: 100px;
+    padding-left: 7vw;
 }
 .social-links{
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding-top: 10px;
+    gap: 15px;
+    padding-bottom: 10px;
 }
 .social-links a{
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     color: white;
-    font-size: 28px;
+    font-size: 1.8vw;
+    @media screen and (max-width:1000px) {
+        font-size: 4vw;
+    }
 }
 .social-links a:hover{
     color: rgb(0, 60, 255);
 }
 .social-logo-1{
-    font-size: 50px;
+    font-size: 3vw;
     color: white;
     border-radius: 50px;
     padding: 10px;
     background-color: #353535;
 }
 .social-logo-2{
-    font-size: 70px;
+    font-size: 4.5vw;
     border-radius: 70px;
     background-color: white;
+    @media screen and (max-width:1000px) {
+        font-size: 8.5vw;
+    }
+}
+.socialmask{
+    margin-bottom: -30vw;
 }

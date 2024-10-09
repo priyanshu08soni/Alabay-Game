@@ -1,13 +1,14 @@
 import React from 'react'
 import socialMedia from '../assets/social-media.png'
 import message from '../assets/Union.png'
+import socialMask from '../assets/Mask/socialmask.png'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa6";
 const SocialMedia = () => {
   return (
     <div>
-      <h1 className='socialmedia-heading px-32 pt-16'>SOCIAL MEDIA LINKS</h1>
-      <div className='flex'>
+      <h1 className='socialmedia-heading'>SOCIAL MEDIA LINKS</h1>
+      <div className='flex flex-wrap'>
         <div className='message'>
             <img className='socialmidea-image-1 ' src={message} alt="message" />
             <div className="overlay-links">
@@ -25,7 +26,11 @@ const SocialMedia = () => {
                 </div>
             </div>
         </div>
-        <img className='socialmidea-image-2 w-50' src={socialMedia} alt="socialMedia" />
+        <div className='socialmidea-image-2'>
+
+          <img className='socialmidea-image-dog' src={socialMedia} alt="socialMedia" />
+          <img src={socialMask} alt="" className="socialmask" />
+        </div>
       </div>
     </div>
   )

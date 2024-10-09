@@ -1,7 +1,14 @@
 .gameprev-heading{
     display: flex; 
     font-weight: 900;
-    font-size: 50px;
+    font-size: 3.3vw;
+    padding-left: 5vw;
+    margin-top: 5vw;
+    @media screen and (max-width:1000px) {
+        font-size: 6vw;
+        justify-content: center;
+        margin-top: 15vw;
+    }
 }
 .gameprev-heading h1{
     color: #FFA800;
@@ -10,14 +17,18 @@
     color:#353535;
 }
 .gameprev-item{
-    width: 300px;
-    height:300px;
+    width: 20vw;
+    height:20vw;
     font-weight: 800;
     border: 1px solid #ddd;
     background: #A6A6A6;
     font-size: 20px;
     border-radius: 30px;
     text-align: center;
+    @media screen and (max-width:1000px) {
+        width: 85vw;
+        height: 85vw;
+    }
 }
 .gameprev-item img{
     border-radius: 30px;

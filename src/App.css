@@ -12,6 +12,8 @@
 @import url('./css/socialmedia.css');
 @import url('./css/gamepage.css');
 @import url('./css/gamepageToggle.css');
+@import url('./css/gamepageToggle2.css');
+@import url('./css/gamepage2.css');
 @font-face{
     font-family: myFont;
     src: url(./assets/font/CHEESEBU.TTF);

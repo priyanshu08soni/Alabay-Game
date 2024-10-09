@@ -54,14 +54,14 @@ const GamePageToggle = () => {
       >
         <h2 className="pt-5">FEATURES</h2>
         <div className="features">
-          <p className="flex py-2">
+          <p className="flex flex-wrap py-2">
             <div>Explore a variety of landscapes, including </div>
             <div className="game-prev-name ps-2">mountains</div>, 
             <div className="game-prev-name ps-2">forests</div>, 
             <div className="game-prev-name px-2">deserts</div> and 
             <div className="game-prev-name ps-2">ancient ruins</div>.
           </p>
-          <p className="flex py-2">
+          <p className="flex flex-wrap py-2">
             <div>Use the Alabay's</div>
             <div className="game-prev-name px-2">abilities</div>
             <div>to solve</div> 
@@ -80,7 +80,7 @@ const GamePageToggle = () => {
           </p>
           <p className="pt-2">Challenge Modes:</p>
           <div className="pb-2">
-            <p className="flex ps-3">
+            <p className="flex flex-wrap px-3">
             <div>-</div>
             <div className="game-prev-name px-2">Time Trials</div>
             <div>
@@ -91,7 +91,7 @@ const GamePageToggle = () => {
             </div>
               
             </p>
-            <p className="flex ps-3">
+            <p className="flex flex-wrap px-3">
               <div>-</div>
               <div className="game-prev-name px-2">Exploration Mastery</div>
               <div>: A mode that rewards players for fully

@@ -10,7 +10,9 @@ const GamePage1 = () => {
             <h1 className='gamepage-heading1'>ALABAY GUARDIAN</h1>
             <h2 className='gamepage-heading2'>SHEPHERD OF THE STEPPES</h2>
         </div>
-        <GamePageToggle/>
+        <div className='gamepage-descriptions'>
+          <GamePageToggle/>
+        </div>
       </div>
     </div>
   )

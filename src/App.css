@@ -10,7 +10,13 @@
 @import url('./css/games.css');
 @import url('./css/gameprev.css');
 @import url('./css/socialmedia.css');
+@import url('./css/gamepage.css');
+@import url('./css/gamepageToggle.css');
 @font-face{
     font-family: myFont;
     src: url(./assets/font/CHEESEBU.TTF);
+}
+@font-face{
+    font-family: myFontGame;
+    src: url(./assets/font/Baron\ Kuffner.otf);
 }

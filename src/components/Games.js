@@ -4,6 +4,7 @@ import { Navigation } from "swiper/modules";
 import guardImage from "../assets/Alabay Games/alabay guard prev 2 1.png"
 import heritageImage from "../assets/Alabay Games/alabay lost heritage prev 1.png"
 import { FaArrowRight } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 const Games = () => {
   return (
     <>
@@ -17,10 +18,12 @@ const Games = () => {
           <div className="game">
             <img className="background-image" src={guardImage} alt="" />
             <div className='button-container'>
-                <button className=' button-1 px-4 py-2'>
-                    <div>DISCOVER</div> 
-                    <FaArrowRight />
-                </button>
+                <NavLink to='/game/game1'>
+                  <button className=' button-1 px-4 py-2'>
+                      <div>DISCOVER</div> 
+                      <FaArrowRight />
+                  </button>
+                </NavLink>
             </div>
           </div>
         </SwiperSlide>
@@ -28,10 +31,12 @@ const Games = () => {
           <div className="game">
             <img className="background-image" src={heritageImage} alt="" />
             <div className='button-container'>
-                <button className=' button-2 px-4 py-2'>
+                <NavLink to='/game/game2'>
+                  <button className=' button-2 px-4 py-2'>
                     <div>DISCOVER</div> 
                     <FaArrowRight />
-                </button>
+                  </button>
+                </NavLink>
             </div>
           </div>
         </SwiperSlide>

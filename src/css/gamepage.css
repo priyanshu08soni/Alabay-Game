@@ -1,0 +1,21 @@
+.gamepage-headings{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.game-page-outer-box{
+    height: 100vh;
+}
+.gamepage-heading1{
+    font-family: myFontGame;
+    font-size: 5vw;
+    color: white;
+}
+.gamepage-heading2{
+    font-family: "Bebas Neue", sans-serif;
+    color: #A4A8FF;
+    font-size: 3vw;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    line-height: 52.19px;
+    letter-spacing: 0.13em;
+}

@@ -1,0 +1,121 @@
+
+  .game-page-scroll-container {
+    width: 95%;
+    height: 500px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding-left: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .game-page-card {
+    height: 500px;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3.3vw;
+  }
+
+  .game-page-card-box1 p{
+    width: 40%;
+    font-weight: 700;
+  }
+  .game-page-card-box1 div{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+  .game-page-card-box1 button{
+    background: #A4A8FF;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 30px;
+  }
+  .game-page-card-box2 h2{
+    font-weight: 700;
+    display: flex;
+    gap: 15px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding-bottom: 3vh;
+  }
+  .game-prev-name{
+    color: #A4A8FF;
+  }
+  .game-page-card-box2 img{
+    width: 250px;
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+  }
+  .game-page-card1 {
+    height: 500px;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3.3vw;
+  }
+  .game-page-card1 h2{
+   font-size: 25px;
+   letter-spacing: 5px;
+   font-weight: 700;
+   padding-bottom: 20px;
+   color: #A4A8FF;
+  }
+
+  .features p{
+    font-weight: 700;
+  }
+  .gamepage-buttons{
+    display: flex;
+    padding-bottom: 30px;
+    gap: 100px;
+  }
+  .gamepage-buttons button{
+    width: 180px;
+    background: #A4A8FF;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 700;
+    border: 3px solid white;
+    gap: 30px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 30px;
+  }
+  
+  .game-page-scroll-container::-webkit-scrollbar {
+    width: 15px;
+  }
+  .game-page-scroll-container::-webkit-scrollbar-track{
+    background: #D9D9D957;
+    border-radius: 10px;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+  
+  .game-page-scroll-container::-webkit-scrollbar-thumb {
+    background-color: #A4A8FF;
+    height: 38%;
+    border-radius: 10px;
+  }
+  
+  .game-page-scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #90FFAE;
+  }
+  

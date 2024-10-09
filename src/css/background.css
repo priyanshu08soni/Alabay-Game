@@ -93,6 +93,8 @@ html, body {
 }
 .description-short{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     line-height: 30px;
 }
 .description-short p{

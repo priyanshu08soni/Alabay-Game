@@ -17,10 +17,10 @@ const Background = () => {
           <div className="description-short">
             WHERE THE &nbsp;<p>LEGENDARY CENTRAL ASIAN SHEPHERD DOG</p>&nbsp;
             MEETS A NEW-AGE ADVENTURE.&nbsp;
-            <p>JOIN US</p> IN
+            <p>JOIN US</p>&nbsp; IN
           </div>
           <div className="description-short">
-            CELEBRATING THE <p>STRENGTH, LOYALTY,</p> AND <p>HERITAGE</p> OF THE
+            CELEBRATING THE <p>&nbsp;STRENGTH, LOYALTY,&nbsp;</p> AND <p>&nbsp;HERITAGE&nbsp;</p> OF THE
             ALABAY BREED.
           </div>
         </div>

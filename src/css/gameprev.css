@@ -17,17 +17,17 @@
     color:#353535;
 }
 .gameprev-item{
-    width: 20vw;
-    height:20vw;
+    width: 25vw;
+    height:25vw;
     font-weight: 800;
     border: 1px solid #ddd;
     background: #A6A6A6;
     font-size: 20px;
     border-radius: 30px;
     text-align: center;
-    @media screen and (max-width:1000px) {
-        width: 85vw;
-        height: 85vw;
+    @media screen and (max-width:1100px) {
+        width: 400px;
+        height: 400px;
     }
 }
 .gameprev-item img{

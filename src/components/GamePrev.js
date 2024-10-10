@@ -30,7 +30,7 @@ const GamePrev = () => {
             slidesPerView: 1,  // 1 slide per view on small screens
           },
           // when window width is >= 640px
-          640: {
+          1000: {
             slidesPerView: 2,  // 2 slides per view on medium screens
           },
           // when window width is >= 768px

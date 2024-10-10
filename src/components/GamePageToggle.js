@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react";
 import { IoMdArrowDropright } from "react-icons/io";
-import guard1 from "../assets/Alabay Games/Alabay Guard/image 1 alabay guard.png";
-import guard2 from "../assets/Alabay Games/Alabay Guard/image 2 alabay guard.png";
-import guard3 from "../assets/Alabay Games/Alabay Guard/image 3 alabay guard.png";
+import guard1 from "../assets/AlabayGames/AlabayGuard/image 1 alabay guard.png";
+import guard2 from "../assets/AlabayGames/AlabayGuard/image 2 alabay guard.png";
+import guard3 from "../assets/AlabayGames/AlabayGuard/image 3 alabay guard.png";
 import { NavLink } from "react-router-dom";
 const GamePageToggle = () => {
   const [scrollProgress, setScrollProgress] = useState(0);

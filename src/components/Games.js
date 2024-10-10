@@ -1,8 +1,8 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
-import guardImage from "../assets/Alabay Games/alabay guard prev 2 1.png"
-import heritageImage from "../assets/Alabay Games/alabay lost heritage prev 1.png"
+import guardImage from "../assets/AlabayGames/alabay guard prev 2 1.png"
+import heritageImage from "../assets/AlabayGames/alabay lost heritage prev 1.png"
 import { FaArrowRight } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 const Games = () => {

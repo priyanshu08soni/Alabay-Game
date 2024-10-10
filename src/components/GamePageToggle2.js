@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
 import { IoMdArrowDropright } from "react-icons/io";
-import abilities from '../assets/Alabay Games/Alabay Adventure - The Lost Heritage/Abilities.png'
-import artifacts from '../assets/Alabay Games/Alabay Adventure - The Lost Heritage/artifacts.png'
-import locations from '../assets/Alabay Games/Alabay Adventure - The Lost Heritage/locations preview.png'
-import overview from '../assets/Alabay Games/Alabay Adventure - The Lost Heritage/overview.png'
+import abilities from '../assets/AlabayGames/AlabayAdventure-TheLostHeritage/Abilities.png'
+import artifacts from '../assets/AlabayGames/AlabayAdventure-TheLostHeritage/artifacts.png'
+import locations from '../assets/AlabayGames/AlabayAdventure-TheLostHeritage/locations preview.png'
+import overview from '../assets/AlabayGames/AlabayAdventure-TheLostHeritage/overview.png'
 import { NavLink } from "react-router-dom";
 const GamePageToggle2 = () => {
   const [scrollProgress, setScrollProgress] = useState(0);

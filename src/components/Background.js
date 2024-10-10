@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../assets/background.png";
 
 const Background = () => {
   return (
@@ -8,7 +7,7 @@ const Background = () => {
         className="home-image-wrapper"
         style={{ position: "relative", height: "100vh", overflow: "hidden" }}
       >
-        <img className="home-image" src={img} alt="" />
+        <div className="home-image"></div>
       </section>
       <section className="home-wrapper-1">
         <div />

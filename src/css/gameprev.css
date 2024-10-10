@@ -25,9 +25,13 @@
     font-size: 20px;
     border-radius: 30px;
     text-align: center;
-    @media screen and (max-width:1100px) {
+    @media screen and (max-width:1100px) and (min-width:500px) {
         width: 400px;
         height: 400px;
+    }
+    @media screen and (max-width:500px) {
+        width: 280px;
+        height: 280px;
     }
 }
 .gameprev-item img{

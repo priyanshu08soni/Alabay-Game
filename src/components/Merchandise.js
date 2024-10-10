@@ -1,14 +1,14 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
-import blackhoodiebck from "../assets/Alabay Merch/black hoodie bck.png";
-import blackhoodie from "../assets/Alabay Merch/black hoodie.png";
-import bluecapbck from "../assets/Alabay Merch/blue cap bck.png";
-import bluecap from "../assets/Alabay Merch/cap mockup.png";
-import pinkteebck from "../assets/Alabay Merch/pink tee bck.png";
-import pinktee from "../assets/Alabay Merch/pink tshirt.png";
-import yellowtee from "../assets/Alabay Merch/yellow tshirt.png";
-import yellowteebck from "../assets/Alabay Merch/yellow tee bck.png";
+import blackhoodiebck from "../assets/AlabayMerch/black hoodie bck.png";
+import blackhoodie from "../assets/AlabayMerch/black hoodie.png";
+import bluecapbck from "../assets/AlabayMerch/blue cap bck.png";
+import bluecap from "../assets/AlabayMerch/cap mockup.png";
+import pinkteebck from "../assets/AlabayMerch/pink tee bck.png";
+import pinktee from "../assets/AlabayMerch/pink tshirt.png";
+import yellowtee from "../assets/AlabayMerch/yellow tshirt.png";
+import yellowteebck from "../assets/AlabayMerch/yellow tee bck.png";
 const Merchandise = () => {
   return (
     <div className="merch">

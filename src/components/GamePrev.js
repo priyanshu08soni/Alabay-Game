@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Import the base Swiper styles
 import "swiper/css/navigation"; // Import styles for navigation
 import "swiper/css/pagination"; // Import styles for pagination
-import artifacts from "../assets/Alabay Games/Alabay Adventure - The Lost Heritage/artifacts.png"
-import abilities from "../assets/Alabay Games/Abilities 2.png"
-import guard from "../assets/Alabay Games/Alabay Guard/image 3 alabay guard.png"
+import artifacts from "../assets/AlabayGames/AlabayAdventure-TheLostHeritage/artifacts.png"
+import abilities from "../assets/AlabayGames/Abilities 2.png"
+import guard from "../assets/AlabayGames/AlabayGuard/image 3 alabay guard.png"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"; // Import the modules correctly
 
 

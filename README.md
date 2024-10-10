@@ -8,7 +8,7 @@ React
 
 ## clone or download
 ```terminal
-$ git clone https://github.com/priyanshu08soni/MS-Stock-Market-Website.git
+$ git clone https://github.com/priyanshu08soni/Alabay-Game.git
 $ npm i
 ```
 
@@ -46,16 +46,10 @@ $ npm run build // this will compile the react code using webpack and generate a
 
 # Dependencies(tech-stacks)
     "@heroicons/react": "^1.0.6",
-    "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.6.7",
     "bootstrap": "^5.3.2",
-    "crypto": "^1.0.1",
-    "csv": "^6.3.10",
-    "dotenv": "^16.4.5",
-    "formik": "^2.4.5",
     "https-browserify": "^1.0.0",
     "node-polyfill-webpack-plugin": "^3.0.0",
     "papaparse": "^5.4.1",
@@ -63,20 +57,13 @@ $ npm run build // this will compile the react code using webpack and generate a
     "react-bootstrap-typeahead": "^6.3.2",
     "react-data-table-component": "^7.6.2",
     "react-dom": "^18.3.1",
-    "react-fast-marquee": "^1.6.2",
-    "react-helmet": "^6.1.0",
     "react-icons": "^4.12.0",
-    "react-image-zoom": "^1.3.1",
-    "react-redux": "^8.1.3",
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
-    "react-toastify": "^10.0.4",
-    "recharts": "^2.12.7",
     "request": "^2.88.2",
     "util": "^0.12.5",
     "web-vitals": "^2.1.4",
     "webpack-dev-middleware": "^7.2.1",
-    "yup": "^1.3.3"
    
 ## Standard
 

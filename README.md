@@ -6,6 +6,7 @@
 React
 </p>
 
+[!(https://raw.githubusercontent.com/priyanshu08soni/Alabay-Game/Alabay-Game.png)]
 ## clone or download
 ```terminal
 $ git clone https://github.com/priyanshu08soni/Alabay-Game.git

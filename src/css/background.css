@@ -40,7 +40,9 @@ html, body {
     transition: filter 0.3s ease; /* Smooth transition for filter */
   }
   
-
+.home-wrapper-2{
+    height: 80vh;
+}
   .content {
     position: absolute; /* To keep content on top of overlay */
     z-index: 2; 
@@ -49,8 +51,8 @@ html, body {
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     margin-right: 5vw;
-    height: 90vh;
-    margin-top: -10vh;
+    height: 95vh;
+    margin-top: -15vh;
     overflow-y: scroll;
     background-color: white;
     /* Ensure content is above both the background and overlay */

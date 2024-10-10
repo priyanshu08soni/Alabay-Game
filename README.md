@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 <h1 align="center">
-🌐 MS - Stock Market Website 
+🌐 Alabay Game
 </h1>
 <p align="center">
 React

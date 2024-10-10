@@ -1,10 +1,13 @@
 .path-vision{
-    position: absolute;
     margin-top: -350px;
+    display: flex;
+    @media screen and (max-width:1000px) {
+      flex-direction: column-reverse;
+    }
 }
 .path-vision-image{
   @media screen and (max-width:1000px) {
-    margin-top: 30vw;
+    margin-top: 10vw;
   }
 }
 .path-vision-mask{
@@ -13,17 +16,39 @@
 .path-desc{
   margin:auto auto;
   padding-left: 8vw;
+  width: 50%;
   padding-right: 8vw;
-  padding-top: 20vh;
+  padding-top: 9vw;
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 700;
   font-size: 2vw;
   @media screen and (max-width:1000px) {
-    font-size: 3vw;
-    padding-top: 18vh;
+    font-size: 4vw;
+    padding-top: 0vw;
+    margin-top: -40vw;
+    text-align: center;
+    width: 90%;
   }
 }
 .join{
     margin-top: 20px;
     color: #FFA800;
+}
+.pathimage2{
+  width: 50%;
+  @media screen and (max-width:1000px) {
+    width: 100%;
+    margin-top: 20vw;
+  }
+}
+.road-head{
+  font-family: myFont;
+  color: white;
+  font-size: 7vw;
+  display: flex;
+  margin-top: 3vw;
+  @media screen and (max-width:700px) {
+      font-size: 10vw;
+      justify-content: center;
+   }
 }

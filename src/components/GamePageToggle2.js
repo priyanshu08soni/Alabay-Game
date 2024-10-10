@@ -62,7 +62,7 @@ const GamePageToggle2 = () => {
             <div className="game2-prev-name px-2">deserts</div> and
             <div className="game2-prev-name ps-2">ancient ruins</div>.
           </p>
-          <p className="flex py-2">
+          <p className="flex flex-wrap py-2">
             <div>Use the Alabay's</div>
             <div className="game2-prev-name px-2">abilities</div>
             <div>to solve</div>

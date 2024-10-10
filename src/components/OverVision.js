@@ -21,8 +21,8 @@ const OverVision = () => {
           <h1 className="road-head">ROAD MAP</h1>
         </div>
       </div>
-      <div className="path-vision flex">
-        <div className="path-desc w-50">
+      <div className="path-vision">
+        <div className="path-desc">
           <p>
             Our journey is just beginning. Explore our roadmap to see the
             exciting milestones and future plans we have in store. Join us as we
@@ -30,7 +30,7 @@ const OverVision = () => {
           </p>
           <p className="join">Join us as we grow and achieve new heights.</p>
         </div>
-        <div className="pe-5 w-50">
+        <div className="pathimage2">
           <img className="path-vision-image" src={path} alt="path-image" />
           <img className="path-vision-mask" src={pathMask} alt="path-image-mask" />
         </div>

@@ -19,7 +19,12 @@
 }
 .his-desc{
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    width: 50%;
+    @media screen and (max-width:1000px) {
+        width: 90%;
+        margin-top: -30vw;
+    }
 }
 .his-desc h1{
     font-family: myFont;
@@ -27,6 +32,9 @@
     font-size: 11vw;
     color: white;
     justify-content: end;
+    @media screen and (max-width:1000px) {
+        justify-content: center;
+    }
 }
 .his-desc h2{
     font-family: "Montserrat", sans-serif;
@@ -35,6 +43,9 @@
     color: rgb(230, 104, 0);
     font-weight: 900;
     justify-content: end;
+    @media screen and (max-width:1000px) {
+        justify-content: center;
+    }
 }
 .his-desc p{
     display: flex;
@@ -42,17 +53,37 @@
     text-align: end;
     font-size: 2vw;
     font-weight: 800;
+    @media screen and (max-width:1000px) {
+        justify-content: center;
+        text-align: center;
+    }
 }
 .history-image{
     font-family: "Kumbh Sans", sans-serif;
-    width: 38vw;
 }
 .history-mask{
     margin-bottom: -20vw;
+}
+.historyimage{
+    width: 50%;
+    @media screen and (max-width:1000px) {
+        width: 90%;
+    }
 }
 .history-page{
     background: radial-gradient(42.38% 44.19% at 50.14% 67.33%, #FFF280 0%, #FFC700 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     padding-bottom: 50px;
     padding-right: 5vw;
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 85%);
+    @media screen and (max-width:1000px) {
+        padding-right: 0vw;
+        padding-bottom: 30vw;
+    }
+}
+.history-container{
+    display: flex;
+    @media screen and (max-width:1000px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }

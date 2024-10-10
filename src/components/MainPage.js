@@ -17,13 +17,12 @@ const MainPage = () => {
           <div className="slider-home">
             <div className="slider" />
           </div>
-          <div className="flex">
-            <div className="w-50">
+          <div className="history-container">
+            <div className="historyimage">
               <img className="history-image" src={historyImage} alt="" />
               <img className="history-mask" src={historyMask} alt="" />
             </div>
-            <div className="his-desc w-50">
-              <div>
+            <div className="his-desc"> 
                 <h2>History Of</h2>
                 <h1>ALABAY</h1>
                 <p>
@@ -32,7 +31,6 @@ const MainPage = () => {
                   Originating from Central Asia, these dogs are renowned for
                   their courage, strength, and loyalty.
                 </p>
-              </div>
             </div>
           </div>
         </div>

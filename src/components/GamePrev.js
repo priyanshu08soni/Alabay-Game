@@ -6,7 +6,7 @@ import "swiper/css/pagination"; // Import styles for pagination
 import artifacts from "../assets/Alabay Games/Alabay Adventure - The Lost Heritage/artifacts.png"
 import abilities from "../assets/Alabay Games/Abilities 2.png"
 import guard from "../assets/Alabay Games/Alabay Guard/image 3 alabay guard.png"
-import { Navigation, Pagination } from "swiper/modules"; // Import the modules correctly
+import { Autoplay, Navigation, Pagination } from "swiper/modules"; // Import the modules correctly
 
 
 const GamePrev = () => {
@@ -17,8 +17,13 @@ const GamePrev = () => {
             <h2>PREVIEWS</h2>
         </div>
       <Swiper 
-        modules={[Navigation, Pagination]} // Pass modules like this
+        modules={[Navigation, Pagination, Autoplay]} // Pass modules like this
         slidesPerView={3}
+        loop={true}
+        autoplay={{
+          delay: 6000,  // Time between each slide in milliseconds
+          disableOnInteraction: false, // Keep autoplay after user interactions
+        }}
         breakpoints={{
           // when window width is >= 320px
           320: {

@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Import the base Swiper styles
 import "swiper/css/navigation"; // Import styles for navigation
 import "swiper/css/pagination"; // Import styles for pagination
-import { Navigation, Pagination } from "swiper/modules"; // Import the modules correctly
+import { Autoplay, Navigation, Pagination } from "swiper/modules"; // Import the modules correctly
 
 
 // Mock data for photos and videos
@@ -65,8 +65,13 @@ const Gallery = () => {
 
       {/* Swiper show */}
       <Swiper 
-        modules={[Navigation, Pagination]} // Pass modules like this
+        modules={[Navigation, Pagination, Autoplay]} // Pass modules like this
         slidesPerView={3}
+        loop={true}
+        autoplay={{
+          delay: 3000,  // Time between each slide in milliseconds
+          disableOnInteraction: false, // Keep autoplay after user interactions
+        }}
         breakpoints={{
           // when window width is >= 320px
           320: {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import guardImage from "../assets/Alabay Games/alabay guard prev 2 1.png"
 import heritageImage from "../assets/Alabay Games/alabay lost heritage prev 1.png"
 import { FaArrowRight } from "react-icons/fa";
@@ -13,7 +13,16 @@ const Games = () => {
       <h2>Stay tuned for upcoming games !</h2>
     </div>
     <div className="games-game">
-    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+    <Swiper 
+      navigation={true} 
+      modules={[Navigation,Autoplay]}
+      loop={true}
+      autoplay={{
+        delay: 9000,  // Time between each slide in milliseconds
+        disableOnInteraction: false, // Keep autoplay after user interactions
+      }} 
+      className="mySwiper"
+    >
         <SwiperSlide>
           <div className="game">
             <img className="background-image" src={guardImage} alt="" />

@@ -10,7 +10,6 @@ const Background = () => {
         <div className="home-image"></div>
       </section>
       <section className="home-wrapper-1">
-        <div />
         <h1 className="gradient-text">WELCOME TO ALABAY WORLD</h1>
         <div className="description">
           <div className="description-short">

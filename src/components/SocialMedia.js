@@ -6,9 +6,9 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa6";
 const SocialMedia = () => {
   return (
-    <div>
+    <div className='socialmediamaincontainer'>
       <h1 className='socialmedia-heading'>SOCIAL MEDIA LINKS</h1>
-      <div className='flex flex-wrap'>
+      <div className='social-media-container'>
         <div className='message'>
             <img className='socialmidea-image-1 ' src={message} alt="message" />
             <div className="overlay-links">

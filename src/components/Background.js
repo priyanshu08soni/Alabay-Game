@@ -19,7 +19,7 @@ const Background = () => {
           </div>
           <div className="description-short">
             CELEBRATING THE <p>&nbsp;STRENGTH, LOYALTY,&nbsp;</p> AND <p>&nbsp;HERITAGE&nbsp;</p> OF THE
-            ALABAY BREED.
+            ALABAY BREED..
           </div>
         </div>
       </section>
